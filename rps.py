@@ -67,7 +67,7 @@ def best_of_five():
             score_ordi += 1
 
         #Annoncer le score présent
-        print(f"Score: {score_joueur} for you and {score_ordi} for the computer!)
+        print(f"Score: {score_joueur} for you and {score_ordi} for the computer!")
     #Annoncer le gagnant final:
     if score_joueur == max_wins:
         print("Congrats! You've won against the big bad machine!")
